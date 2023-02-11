@@ -1,0 +1,144 @@
+    @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+    }
+    
+    .text-section {
+        height: 100%;
+        width: 65%;
+        background-image: url(./image/JShine.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .text-section h2 {
+        font-size: 90px;
+        font-weight: 100;
+        margin-bottom: 20px;
+        font-family: 'Audiowide', cursive;
+    }
+    
+    .text-section h3 {
+        font-size: 44px;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    
+    .text-section h4 {
+        font-size: 23px;
+        font-weight: 100;
+    }
+    
+    .form-section {
+        height: 100%;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .form-section img {
+        height: 25px;
+        margin-bottom: 35px;
+    }
+    
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 45px;
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    
+    .heading h3 {
+        margin-bottom: 50px;
+    }
+    
+    .first_input {
+        border: none;
+        font-size: 15px;
+        color: rgb(219, 218, 218);
+        width: 100%;
+        border-bottom: 1px solid gray;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .next-btn {
+        height: 40px;
+        width: 100%;
+        font-size: 16px;
+        background-color: #39c;
+        color: white;
+        border: none;
+    }
+    
+    .list {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    
+    .list a {
+        text-decoration: none;
+        color: #39c;
+    }
+    
+    .create-btn {
+        height: 50px;
+        width: 100%;
+        font-size: 17px;
+        border: 1px solid #39c;
+        color: #39c;
+        background-color: white;
+    }
+    
+    .google-btn {
+        height: 40px;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #39c;
+        font-size: 16px;
+    }
+    
+    .check_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .google-btn i {
+        margin-right: 8px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #39c;
+        font-size: 15px;
+    }
+    
+    @media(max-width: 500px) {
+        .text-section {
+            display: none;
+        }
+        .form-section {
+            width: 100%;
+        }
+    }
